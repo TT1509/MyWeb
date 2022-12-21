@@ -1,8 +1,8 @@
 h1 {
     padding: auto;
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgb(96, 91, 182) 5%, rgba(121,117,9,0.6208858543417367) 41%, rgba(0,212,255,1) 100%);
-    text-align: center;
+    background: linear-gradient(90deg, rgb(188, 144, 11) 5%);
+    text-align: auto;
     margin: auto;
 }
 body {
