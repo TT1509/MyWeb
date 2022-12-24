@@ -10,27 +10,35 @@
        <h1 style="font-size: 50px; background-color: rgb(179, 121, 13); font-family: 'Times New Roman', Times, serif; text-align: center; border: 2px solid blanchedalmond;">Welcome to my homepage</h1>
        <h2>This is my first webpage</h2>
        <P><a href="https://github.com/TungTran159/MyWeb/tree/main">Access my github</a></P>
-        <section>
-            <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-            </ul>
-            <ol>
-                <li>a</li>
-                <li>b</li>
-                <li>c</li>
-            </ol>
-            <dl>
-                <dt>1</dt>
-                <dd>one</dd>
-                <dt>2</dt>
-                <dd>two</dd>
-                <dt>3</dt>
-                <dd>three</dd>
-            </dl>
+        <section class="list_define">
+            <fieldset>
+                <h3 class="list">list</h3>
+                <div class="li">
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                    </ul>
+                    <ol>
+                        <li>a</li>
+                        <li>b</li>
+                        <li>c</li>
+                    </ol>
+                </div>
+                <h3 class="define">define</h3>
+                <div>
+                    <dl>
+                        <dt>1</dt>
+                        <dd>one</dd>
+                        <dt>2</dt>
+                        <dd>two</dd>
+                        <dt>3</dt>
+                        <dd>three</dd>
+                    </dl>
+                </div>
+            </fieldset>
         </section>
-        <section>
+        <section class="pacman">
             <img src="https://th.bing.com/th/id/R.93da1bf8aa30cc875ca6e05ae96025f1?rik=ekA9MlruPNkqtQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-7kSolqh6gS0%2fTjYDnO2GVpI%2fAAAAAAAABAo%2fuePKbMBEIY0%2fs400%2fpacman.png&ehk=nHnene8B2ZhAfYnvpCX0pNmyGq18hOPBAbCgpIHBGpo%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" alt="PACMAN" width="200" height="200" style="border: 2px dashed bisque;">
             <p>DO YOU LIKE PACMAN?</p>
             <form>
@@ -52,14 +60,32 @@
                     <td style="border: 2px solid rgb(32, 19, 2); text-align: center;">c</td>
                 </tr>
             </table>
-        </section>   
+        </section>
+        <section>
+            <div>
+                <fieldset>
+                    <legend> Do you want to isekai? </legend>
+                    <label><input id="yes" type="radio" name="yes-no" value="yes" checked> YES</label>
+                    <label><input id="no" type="radio" name="yes-no" value="no"> NO</label>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>What're the skills you want to possess after isekai? </legend>
+                    <input id="Super strength" type="checkbox" name="skills" value="Super strength" checked> <label for="Super strength">Super strength</label>
+                    <input id="Unlimited Gacha" type="checkbox" name="skills" value="Unlimited Gacha"> <label for="Unlimited Gacha">Unlimited Gacha</label>
+                    <input id="Immortal" type="checkbox" name="skills" value="Immortal"> <label for="Immortal">Immortal</label>
+                    <input type="checkbox" name="skills"> <placeholder></placeholder>
+              </fieldset>
+            </div>
+        </section>
     </body>
     <footer>
         <section style="border: 1px rgb(0,34,33); ">
             <img src="https://th.bing.com/th/id/R.6627aeb86aba0a485eb154af10e7eff4?rik=vBxWZE8ZB76Kng&pid=ImgRaw&r=0" style="border: white 10px;" width="250", height="250">
             <br>
-            <button><a href="https://canvas.rmit.edu.au/courses/113610/pages/t8-tutorial-materials?module_item_id=4524238">click</a></button>
-            <button><a href="https://canvas.rmit.edu.au/courses/113610/pages/t8-tutorial-materials?module_item_id=4524238">click</a></button>
+            <button><a href="https://canvas.rmit.edu.au/courses/113610/pages/t8-tutorial-materials?module_item_id=4524238">Click</a></button>
+            <button><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">DO NOT CLICK</a></button>
         </section>
     </footer>
 </html>

@@ -8,5 +8,26 @@ h1 {
 body {
     background-color: burlywood; 
 }
-        
-    
+.list {
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27)) ;
+    box-shadow: 5px 5px red;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+  }
+
+.define {
+    background: linear-gradient(rgb(173, 220, 29), rgb(49, 205, 35), rgb(20, 209, 55)) ;
+    box-shadow: 5px 5px rgb(22, 224, 59);
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+.list_define {
+    margin: auto;
+    padding-left: auto;
+}
+.pacman {
+    margin-bottom: auto;
+    padding-bottom: auto;
+}
